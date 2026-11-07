@@ -22,7 +22,7 @@ h2{font-size:1.5rem;margin:2.2rem 0 .6rem}
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1.2rem;margin:2.5rem 0}
 .tiles a{display:block;overflow:hidden;background:var(--panel);border:1px solid var(--line);border-bottom:5px solid var(--spot);border-radius:6px;color:var(--ink);text-decoration:none}
 .tiles a:hover,.tiles a:focus-visible{border-color:var(--spot)}
-.tiles img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.tiles img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
 .tiles b{display:block;padding:.8rem 1rem 0;font-family:"Bricolage Grotesque",sans-serif;font-size:1.3rem}
 .tiles span{display:block;padding:0 1rem 1rem;color:var(--mute);font-size:.95rem}
 .portrait{width:13rem;height:13rem;object-fit:cover;border-radius:50%;float:right;margin:0 0 1rem 1.5rem}

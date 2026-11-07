@@ -1,6 +1,5 @@
 /* Colors: change these hex codes to restyle the whole site */
-:root{--bg:#EDF1EE;--panel:#FAFBFA;--ink:#14262B;--mute:#4C6168;--line:#C9D5D0;--stream:#1F5C63;--spot:#D4561A;--dot:#14262B}
-@media (prefers-color-scheme:dark){:root{--bg:#0F1B1F;--panel:#16272C;--ink:#E6EEEA;--mute:#9DB3B3;--line:#2B4046;--stream:#6FB7BD;--spot:#F08A52;--dot:#E6EEEA}}
+:root{--bg:#12261C;--panel:#1A3327;--ink:#E8F0E6;--mute:#A9C0AF;--line:#2F4D3B;--stream:#8FD0A0;--spot:#E8894A;--dot:#E8F0E6;color-scheme:dark}
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:1.0625rem/1.65 "Source Serif 4",Georgia,serif}

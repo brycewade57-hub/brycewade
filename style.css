@@ -39,3 +39,9 @@ footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line);colo
 .hero-photo{display:block;width:100%;height:auto;border-radius:8px;margin:2rem 0 0}
 .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:1rem;margin:1.5rem 0 2.5rem}
 .gallery img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:6px}
+.topics{display:grid;grid-template-columns:repeat(auto-fit,minmax(19rem,1fr));gap:2rem;margin:2.5rem 0 1rem}
+.topic{background:var(--panel);border:1px solid var(--line);border-bottom:5px solid var(--spot);border-radius:6px;overflow:hidden}
+.topic img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.topic div{padding:1rem 1.2rem 1.4rem}
+.topic h2{margin:0 0 .4rem;font-size:1.3rem}
+.topic p{margin:0;color:var(--mute)}

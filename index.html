@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bryce Wade, PhD · Landscape genetics and amphibian conservation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EDF1EE;--panel:#FAFBFA;--ink:#14262B;--mute:#4C6168;--line:#C9D5D0;--stream:#1F5C63;--spot:#D4561A;--dot:#14262B;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1B1F;--panel:#16272C;--ink:#E6EEEA;--mute:#9DB3B3;--line:#2B4046;--stream:#6FB7BD;--spot:#F08A52;--dot:#E6EEEA}}
+:root[data-theme="dark"]{--bg:#0F1B1F;--panel:#16272C;--ink:#E6EEEA;--mute:#9DB3B3;--line:#2B4046;--stream:#6FB7BD;--spot:#F08A52;--dot:#E6EEEA}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:4.5rem;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:1.0625rem/1.65 "Source Serif 4",Georgia,serif}
+a{color:var(--stream);text-underline-offset:.2em}
+a:focus-visible{outline:3px solid var(--spot);outline-offset:3px;border-radius:2px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
+h1,h2,h3,nav{font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;gap:1.4rem;align-items:center;overflow-x:auto;white-space:nowrap;padding-top:.85rem;padding-bottom:.85rem;font-size:.95rem}
+nav b{margin-right:auto;font-weight:800}
+nav a{color:var(--ink);text-decoration:none;font-weight:600}
+nav a:hover{color:var(--stream);text-decoration:underline}
+header.hero{padding:4.5rem 0 3rem}
+h1{font-size:clamp(2.8rem,9vw,6rem);line-height:.95;letter-spacing:-.03em;font-weight:800;margin:0 0 1.2rem}
+.lede{font-size:clamp(1.2rem,2.6vw,1.6rem);line-height:1.4;max-width:40rem;margin:0 0 1.2rem}
+.now{color:var(--mute);margin:0 0 1.6rem}
+.links{display:flex;flex-wrap:wrap;gap:.7rem}
+.links a{padding:.55rem 1rem;border:1.5px solid var(--ink);border-radius:999px;color:var(--ink);text-decoration:none;font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:.95rem}
+.links a:first-child{background:var(--ink);color:var(--bg)}
+.links a:hover{border-color:var(--spot)}
+.belly{display:block;width:100%;height:auto;margin-top:3rem;background:var(--panel);border:1px solid var(--line);border-radius:999px}
+section{padding:3rem 0;border-top:1px solid var(--line)}
+h2{font-size:2rem;letter-spacing:-.02em;margin:0 0 1.6rem;font-weight:800}
+h3{font-size:1.15rem;margin:0 0 .3rem;font-weight:600}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:2rem}
+.cols p{margin:0;color:var(--mute)}
+.cols h3{color:var(--ink)}
+.cols div{border-left:4px solid var(--spot);padding-left:1rem}
+ul.pubs,ul.plain{list-style:none;padding:0;margin:0}
+ul.pubs li{padding:1rem 0;border-bottom:1px solid var(--line);max-width:46rem}
+ul.pubs li:last-child{border:0}
+.yr{display:inline-block;min-width:3.4rem;font-family:"Bricolage Grotesque",sans-serif;font-weight:800;color:var(--spot)}
+.st{font-family:"Bricolage Grotesque",sans-serif;font-size:.85rem;color:var(--mute);margin-left:.4rem}
+.me{font-weight:600}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:2.5rem}
+ul.plain li{padding:.45rem 0}
+.fund{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:clamp(2rem,6vw,3.2rem);letter-spacing:-.03em;margin:0}
+.small{color:var(--mute);font-size:.95rem}
+footer{padding:2.5rem 0 3.5rem;border-top:1px solid var(--line);color:var(--mute);font-size:.95rem}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>Bryce Wade</b><a href="#research">Research</a><a href="#papers">Papers</a><a href="#teaching">Teaching</a><a href="#contact">Contact</a></div></nav>
+
+<main class="wrap">
+<header class="hero">
+<h1>Bryce Wade, PhD</h1>
+<p class="lede">I study how habitat loss and landscape change reshape the genetic diversity of amphibians, and how that evidence can guide conservation decisions.</p>
+<p class="now">Postdoctoral Associate in the Mims Lab at Virginia Tech since August 2026. Ph.D. in Energy Science and Engineering (Environmental and Climate Sciences), University of Tennessee, Knoxville, 2026.</p>
+<div class="links"><a href="#papers">Read the papers</a><a href="mailto:brycewade@vt.edu">Email me</a></div>
+<svg id="belly" class="belly" viewBox="0 0 900 150" role="img" aria-label="Decorative pattern of dark spots, like the belly of a four-toed salamander"></svg>
+</header>
+
+<section id="research">
+<h2>Research</h2>
+<div class="cols">
+<div><h3>Landscape genetics</h3><p>How do forests, wetlands, roads and streams affect gene flow? I test whether findings from one site hold in others, and why spatial replication matters for the answer.</p></div>
+<div><h3>Conservation genomics</h3><p>Genomic baselines and long-term trends in threatened salamanders, including work on Barton Springs salamanders (<i>Eurycea sosorum</i>).</p></div>
+<div><h3>Connectivity and land use</h3><p>Connectivity models that inform planning and mitigation, built with partners at Oak Ridge National Laboratory on mixed-use, federally managed lands.</p></div>
+<div><h3>Long-term monitoring</h3><p>What multi-decade, student-driven monitoring of turtles and snakes can teach ecologists, and how to account for sampling bias.</p></div>
+</div>
+</section>
+
+<section id="papers">
+<h2>Selected papers</h2>
+<ul class="pubs">
+<li><span class="yr">2026</span><span class="me">Wade, B.S.</span>, Pierson, T.W., Fitzpatrick, B.M., Peterman, W.E., and Carter, E.T. Ecological connectivity and habitat loss shape patterns of genetic diversity in a threatened salamander. <i>Landscape Ecology</i> 41.</li>
+<li><span class="yr">2026</span><span class="me">Wade, B.S.</span>, Crawford, J.A., and Peterman, W.E. Legacy of historical disturbance shapes modern genetic diversity in a high-elevation salamander. <i>Conservation Genetics</i> 27:18.</li>
+<li><span class="yr">2026</span><span class="me">Wade, B.S.</span> and Carter, E.T. The importance and rarity of spatial replication in landscape genetics. <i>Current Landscape Ecology Reports</i> 11.</li>
+<li><span class="yr">2026</span>Laffoon, T.R., Hughes, D.B., <span class="me">Wade, B.S.</span>, Hayter, L.E., and Carter, E.T. Temperature and size-selective biases in hoop net surveys of aquatic turtles: insights from a 17-year student-led monitoring program. <i>Herpetological Conservation and Biology</i> 21:428–441.</li>
+<li><span class="yr">2025</span><span class="me">Wade, B.S.</span>, Pierson, T.W., Fitzpatrick, B.M., and Carter, E.T. Spatial replication is important for developing landscape genetic inferences for a wetland salamander. <i>Molecular Ecology</i> 34:e17808.</li>
+<li><span class="yr">2025</span>Carter, E.T., <span class="me">Wade, B.S.</span>, Jett, R.T., et al. Ecological connectivity and in-kind mitigation in a regulatory decision framework: a case study with an amphibian habitat specialist. <i>Journal of Environmental Management</i> 377:124546.</li>
+<li><span class="yr">2023</span><span class="me">Wade, B.S.</span>, Carter, E.T., DeRolph, C.R., et al. Advancing wildlife connectivity in land use planning: a case study with four-toed salamanders. <i>Journal of Wildlife Management</i> 87:e22456.</li>
+<li><span class="yr">2021</span><span class="me">Wade, B.S.</span>, Kemp, B.H., Vininski, M.S., et al. Kleptogenesis in Kentucky: genetic analyses of unisexual <i>Ambystoma</i> at the southernmost extent of their range. <i>Herpetological Review</i> 52:730–734.</li>
+<li><span class="yr">Next</span><span class="me">Wade, B.S.</span>, Peterman, W.E., Fitzpatrick, B.M., and Carter, E.T. Variable but permeable landscapes maximize pattern detection in landscape genetics. <i>Molecular Ecology Resources</i><span class="st">In revision</span></li>
+<li><span class="yr">Next</span>Bucholz, J.R., McCulloch, B., Drake, J.C., et al., <span class="me">Wade, B.S.</span>, and Mims, M.C. GLaDIS: Global Landscape Genetics Dataset of Introduced Species. <i>Scientific Data</i><span class="st">Resubmitted</span></li>
+<li><span class="yr">Next</span>Pierson, T.W., <span class="me">Wade, B.S.</span>, et al. Southern Appalachia is a hotspot of evolutionary diversity (and gene flow) for the four-toed salamander. <i>Journal of Biogeography</i><span class="st">In prep.</span></li>
+</ul>
+<p class="small">The full list also includes technical reports for Oak Ridge National Laboratory, a USGS data release, and short natural history notes.</p>
+</section>
+
+<section id="teaching">
+<h2>Teaching, mentoring, and service</h2>
+<div class="two">
+<div><h3>Mentoring</h3>
+<p class="small">Five undergraduate students mentored since 2022, several now coauthors on published work, and one MS thesis committee.</p>
+<h3>Guest lectures</h3>
+<p class="small">North Carolina State University, Johnson University, and the Boone County Conservation District.</p></div>
+<div><h3>Peer review</h3>
+<p class="small"><i>Ecology and Evolution</i>, <i>Global Ecology and Conservation</i>, <i>Herpetological Conservation and Biology</i>, <i>Hydrobiologia</i>, <i>Ichthyology and Herpetology</i>, <i>Journal for Nature Conservation</i>, <i>PeerJ</i>, <i>Northeastern Naturalist</i></p>
+<h3>Outreach</h3>
+<p class="small">Co-organizer of the Clinch River Environmental Studies Organization student science symposium, and leader of public hikes in the Great Smoky Mountains.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Mims Lab, Virginia Tech, Blacksburg, Virginia<br><a href="mailto:brycewade@vt.edu">brycewade@vt.edu</a></p>
+</section>
+</main>
+
+<footer><div class="wrap">© 2026 Bryce Wade</div></footer>
+
+<script>
+(function(){
+var s=document.getElementById('belly'),n='http://www.w3.org/2000/svg',seed=7,i,x,y,r,c;
+function rnd(){seed=(seed*16807)%2147483647;return seed/2147483647}
+for(i=0;i<70;i++){
+x=40+rnd()*820;y=20+rnd()*110;r=2+rnd()*7;
+c=document.createElementNS(n,'circle');
+c.setAttribute('cx',x.toFixed(1));c.setAttribute('cy',y.toFixed(1));c.setAttribute('r',r.toFixed(1));
+c.setAttribute('fill',i===23?'var(--spot)':'var(--dot)');
+s.appendChild(c);
+}
+})();
+</script>
+</body>
+</html>

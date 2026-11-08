@@ -48,4 +48,4 @@ footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line);colo
 .note{color:var(--mute);font-size:.95rem;margin:0 0 .5rem}
 figure.map{margin:2rem 0 0}
 figure.map img{display:block;width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:8px}
-figure.map figcaption{margin-top:.6rem;text-align:center;color:var(--mute);font-size:.95rem;font-style:italic}
+figure.map figcaption{margin-top:.6rem;text-align:center;color:var(--mute);font-size:1.3rem;font-style:normal}
